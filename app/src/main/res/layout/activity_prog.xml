@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.venkataraman.hola.ProgActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Sugar"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overall Stats : "
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:textSize="30dp"/>
+
+            <TableRow
+                android:gravity="left">
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/GoogleFire"
+                    android:text="Total Distance Covered :"/>
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:id="@+id/dist"/>
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="left">
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/GoogleFire"
+                    android:text="Level No. :"/>
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:id="@+id/lvl"/>
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="left">
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/GoogleFire"
+                    android:text="Designation :"/>
+
+                <TextView
+                    android:layout_margin="15dp"
+                    android:textSize="20dp"
+                    android:id="@+id/dsg"/>
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:text="Evaluation Scale"/>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 1"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 0"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Tortoise"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 2"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 5"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Kangaroo"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 3"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 15"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Deer"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 4"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 30"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Horse"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 5"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 50"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Tiger"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Level 6"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Distance Walked > 100"/>
+
+                    <TextView
+                        android:layout_margin="15dp"
+                        android:text="Cheetah"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

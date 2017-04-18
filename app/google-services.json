@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "660953012285",
+    "firebase_url": "https://hola-8c3e8.firebaseio.com",
+    "project_id": "hola-8c3e8",
+    "storage_bucket": "hola-8c3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660953012285:android:23acef550ca5a759",
+        "android_client_info": {
+          "package_name": "com.example.venkataraman.hola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660953012285-n8raqmck41kg1luqehfldvef16ne17am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venkataraman.hola",
+            "certificate_hash": "ed3cc92d5cf17c382a9047166657b0f5b82a9440"
+          }
+        },
+        {
+          "client_id": "660953012285-sc9a92k8hknnd6tdprsq40ohgj33uomd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAj50nUyTCUSU5cLSw9AUl6FHgqq7XhBc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660953012285-sc9a92k8hknnd6tdprsq40ohgj33uomd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d4190f</color>
+
+    <color name="GoogleBlue">#0288d1</color>
+    <color name="GoogleFire">#039BE5</color>
+    <color name="ButtonSC">#555</color>
+    <color name="Sugar">#555</color>
+
+    <color name="Sandy_Brown">#f4a460</color>
+</resources>

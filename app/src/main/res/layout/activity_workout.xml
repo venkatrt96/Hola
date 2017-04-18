@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.venkataraman.hola.WorkoutActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Sugar"
+
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#ff8424"
+                android:textAlignment="center"
+                android:id="@+id/day" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="30sp"
+                android:text="Check the appropriate Check Boxes :"
+                android:textStyle="italic"
+                android:textAlignment="center" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/pu"
+                        android:text="Push Ups" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Push Ups Count"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/npu" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/plu"
+                        android:text="Pull Ups" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Pull Ups Count"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/nplu" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/su"
+                        android:text="Sit Ups" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Time (in Minutes)"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/nsu" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/c"
+                        android:text="Crunches" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Crunches Count"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/nc" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/p"
+                        android:text="Plank" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Plank Time (in Minutes)"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/pt" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/t"
+                        android:text="Treadmill" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Time (in Minutes)"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/tt" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/e"
+                        android:text="EFX" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Time (in Minutes)"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/et" />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="left">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/GoogleFire"
+                        android:id="@+id/cy"
+                        android:text="Cycling" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Time (in Minutes)"
+                        android:layout_margin="5dp"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:focusable="true"
+                        android:id="@+id/cyt" />
+
+                </TableRow>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:focusableInTouchMode="true"
+                    android:background="@color/GoogleFire"
+                    android:textSize="20sp"
+                    android:text="Calories Burnt"
+                    android:focusable="true"
+                    android:id="@+id/process" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="20sp"
+                    android:text="Loading.."
+                    android:focusable="true"
+                    android:id="@+id/progress" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="20sp"
+                    android:text="Loading.."
+                    android:focusable="true"
+                    android:id="@+id/history" />
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

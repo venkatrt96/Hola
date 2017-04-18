@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hola</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_json">Map</string>
+    <string name="google_maps_key">AIzaSyCpDO7UKsjjjsXfUq7UOqxZ7yAuQpaSje8</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

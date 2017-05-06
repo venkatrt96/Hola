@@ -105,26 +105,39 @@ public class WorkoutActivity extends AppCompatActivity {
 
         history.setText("History : \n\n");
 
+        /*
         cursor = d.rawQuery("select * from work group by date", null);
-        cursor.moveToFirst();
 
-        String story = history.getText().toString();
-        String getStory = "";
+        if (cursor != null && cursor.getCount() > 0) {
+            cursor.moveToFirst();
 
-        int count = cursor.getCount();
+            String story = history.getText().toString();
+            String getStory = "";
 
-        while (count > 0) {
-            String d = cursor.getString(0);
-            String cal = cursor.getString(1);
+            int count = cursor.getCount();
 
-            getStory = getStory+"Date : "+d+"\n"+"Calories Burnt : "+cal+"\n\n";
+            while (count > 0) {
+                String d = cursor.getString(0);
+                String cal = cursor.getString(1);
 
-            count--;
-            cursor.moveToNext();
+                getStory = getStory+"Date : "+d+"\n"+"Calories Burnt : "+cal+"\n\n";
+
+                count--;
+                cursor.moveToNext();
+            }
+            story = story + getStory;
+
+            history.setText(story);
         }
-        story = story + getStory;
+        else {
+            String story = history.getText().toString();
+            String getStory = "";
 
-        history.setText(story);
+            story = story + getStory;
+
+            history.setText(story);
+        }
+        */
     }
 
     public void processing() {

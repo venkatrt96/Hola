@@ -80,9 +80,7 @@ public class NavActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SensorActivity sensorActivity = new SensorActivity();
-
-                Snackbar.make(view, "", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Ensure that you have Internet Access & GPS is On.", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
